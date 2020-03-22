@@ -1,0 +1,149 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background: #000000;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: rgba(0, 0, 0, 0.5);
+	
+}
+
+.section-2 {
+	background-color: #ffffff;
+	/*background-color: #343a40;*/
+}
+
+.section-3 {
+	background: #212529;
+}
+
+.section-4 {
+	background-color: #000000;
+	padding: 1rem;
+}
+
+a.nav-item {
+	color: #dfdfdf;
+}
+
+a.nav-item:hover {
+	color: #fff;
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.education-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.education-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: #212529;
+	border: 2px solid rgba(0, 0, 0, 0.75);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+footer{
+	background: #000000;
+}
+
+
+#footer_text_prateek{
+	font-size: 1em;
+	font-family: monospace;
+}
+
+
+#prateek_name{
+	text-align: left;
+	width: 100%;
+	font-weight: 600;
+	font-size: 2em;
+	margin-top: 0.2em
+}
+
+#skill_text{
+	color: #000000;
+}
+
+.skill_set{
+	margin-top: 3em;
+}
+
+.social_set{
+	height: 100px;
+	width: 100px;
+	margin-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background: rgba(0,0,0,0.9);
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+
+	#prateek_name{
+		font-size: 1.5em;
+		margin-left: 0.4em;
+		margin-top: 0.4em;
+	}
+
+}
