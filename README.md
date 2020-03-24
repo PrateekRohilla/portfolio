@@ -13,9 +13,9 @@ Created with HTML, CSS & few lines of JavaScript and the web page is fully Respo
 <br/>
 
 ## Mobile View
-
-<img align="center" width="384" height="600" src="https://snaps-img.netlify.com/img/portfolio/m1.jpeg">
-
+<p align="center">
+<img width="384" height="600" src="https://snaps-img.netlify.com/img/portfolio/m1.jpeg">
+</p>
 
 <br/>
 <br/>
